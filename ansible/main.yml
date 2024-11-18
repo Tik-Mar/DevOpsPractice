@@ -1,0 +1,9 @@
+---
+- name: Make sure Wordpress is installed on a LAMP server 
+  url: 192.168.193.8
+  verify_ssl = true:
+  name = "pypi"
+  [packages]
+  
+
+  tasks:
